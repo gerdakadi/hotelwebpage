@@ -1,0 +1,43 @@
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+.py-30 {
+    padding: 20px 0;
+}
+#testimonials {
+    height: 600px;
+    background: url("../img/test-bg.jpg") no-repeat center/cover;
+}
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+}
+#testimonials .testimonial {
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px;               
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+}
